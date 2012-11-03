@@ -7,8 +7,8 @@ EXTRA_DIST = gtksourceview.defs gtksourceview.override
 defsdir = $(datadir)/pygtk/2.0/defs
 defs_DATA = gtksourceview.defs
 
-pkgpythondir = $(pyexecdir)/gtk-2.0
-pkgpyexecdir = $(pyexecdir)/gtk-2.0
+pkgpythondir = $(pyexecdir)/gtk-2.0/mate
+pkgpyexecdir = $(pyexecdir)/gtk-2.0/mate
 
 # gtksourceview module
 pkgpyexec_LTLIBRARIES = gtksourceview.la

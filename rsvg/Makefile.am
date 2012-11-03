@@ -4,8 +4,8 @@ INCLUDES = $(PYTHON_INCLUDES) $(RSVG_CFLAGS)
 
 EXTRA_DIST = rsvg.defs rsvg.override
 
-pkgpythondir = $(pyexecdir)/gtk-2.0
-pkgpyexecdir = $(pyexecdir)/gtk-2.0
+pkgpythondir = $(pyexecdir)/gtk-2.0/mate
+pkgpyexecdir = $(pyexecdir)/gtk-2.0/mate
 
 # rsvg module
 pkgpyexec_LTLIBRARIES = rsvg.la

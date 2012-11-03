@@ -1,8 +1,8 @@
 
 INCLUDES = $(PYTHON_INCLUDES) $(GTOP_CFLAGS)
 
-pkgpythondir = $(pyexecdir)/gtk-2.0
-pkgpyexecdir = $(pyexecdir)/gtk-2.0
+pkgpythondir = $(pyexecdir)/gtk-2.0/mate
+pkgpyexecdir = $(pyexecdir)/gtk-2.0/mate
 
 # gtop module
 pkgpyexec_LTLIBRARIES = gtop.la
