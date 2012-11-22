@@ -67,9 +67,9 @@
   )
 )
 
-(define-method get_preferences_key
+(define-method get_preferences_path
   (of-object "MatePanelApplet")
-  (c-name "mate_panel_applet_get_preferences_key")
+  (c-name "mate_panel_applet_get_preferences_path")
   (return-type "gchar*")
 )
 
