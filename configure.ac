@@ -146,7 +146,7 @@ done
 dnl should we build the mate.applet module?
 AC_ARG_BINDING([applet],[YES],[mate.applet])
 if $build_applet; then
-	PKG_CHECK_MODULES(LIBPANELAPPLET, [libmatepanelapplet-2.0 >= libmatepanelapplet_required_version
+	PKG_CHECK_MODULES(LIBPANELAPPLET, [libmatepanelapplet-4.0 >= libmatepanelapplet_required_version
 					   mate-python-2.0 >= mate_python_required_version
                                            libmate-2.0 libmateui-2.0],
 	  build_applet=true,
